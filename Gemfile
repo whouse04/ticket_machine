@@ -6,6 +6,9 @@ gem 'rails', '3.2.5'
 
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem('ticket_machine',
+    :git => 'https://github.com/whouse04/ticket_machine', :tag => 'v1.0.0')
+
 gem 'pg'
 
 gem 'devise'
