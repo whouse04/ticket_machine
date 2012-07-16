@@ -8,9 +8,9 @@ gem 'rails', '3.2.5'
 
 #gem('ticket_machine', :git => 'https://github.com/whouse04/ticket_machine', :tag => 'v1.0.1')
 
-gem 'pg'
+gem('pg')
 
-gem 'devise'
+gem('devise')
 
 
 # Gems used only for assets and not required
@@ -20,7 +20,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
 end
